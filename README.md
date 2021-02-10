@@ -18,7 +18,7 @@ These are the API Routes created to the application.
 |GET                |localhost:5000/productapp/category/:{category} |List by category |       |
 |POST               |localhost:5000/productapp/create              |Create a new product          |
 |PUT                |localhost:5000/productapp/update/:{id}                  |Update a product searching by id       |
-|PATCH                |localhost:5000/productapp//updatecategory/:id                  |Update a product's category searching by id       |
+|PATCH                |localhost:5000/productapp/updatecategory/:id                  |Update a product's category searching by id       |
 |DELETE             |localhost:5000/productapp/:{id}                  |Delete a product by id         |
 
 ## Technologies and tools
@@ -29,7 +29,6 @@ These are the API Routes created to the application.
 - VSCode 
 - NPM
 - Express
-- Cors
 - Mongoose
 - mongodb
 - Nodemon
